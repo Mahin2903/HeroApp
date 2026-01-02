@@ -1,7 +1,7 @@
 import React from 'react';
 import navImg from '../../image/logo.png'
 import logoButton from '../../image/Vector.png'
-import { Link } from 'react-router';
+import { Link, Links } from 'react-router';
 
 
 const Navbar = () => {
@@ -22,10 +22,12 @@ const Navbar = () => {
         <Link to='Installation'><li>Installation</li></Link>
        
       </ul>
+    
     </div>
-    <img src={navImg} className='w-[40px ml-[40px] h-[40px]' alt="" />
-    <a className="btn btn-ghost text-xl bg-linear-to-bl from-violet-500 to-fuchsia-500 bg-clip-text text-transparent">Hero.IO</a>
+    <Link to='/'><img src={navImg} className='w-[40px ml-[40px] h-[40px]' alt="" />
+    <a className="btn btn-ghost text-xl bg-linear-to-bl from-violet-500 to-fuchsia-500 bg-clip-text text-transparent">Hero.IO</a></Link>
   </div>
+    
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 gap-5">
       <Link to='/'><li>Home</li></Link>
@@ -34,8 +36,18 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <Link to=''><div className='hidden md:block'><button className=' text-[16px] btn text-white p-3 px-4 gap-2 bg-linear-to-bl from-violet-500 to-fuchsia-500 w-[145px] h-[43px]  mr-[80px]'>     <img src={logoButton} className='w-5 h-5' alt="" />
-   Contribute</button></div></Link>
+    <a
+  href="https://github.com/Mahin2903"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hidden md:block"
+>
+  <button className="text-[16px] btn text-white p-3 px-4 gap-2 bg-linear-to-bl from-violet-500 to-fuchsia-500 w-[145px] h-[43px] mr-[80px]">
+    <img src={logoButton} className="w-5 h-5" alt="" />
+    Contribute
+  </button>
+</a>
+
   </div>
 </div>
         </div>

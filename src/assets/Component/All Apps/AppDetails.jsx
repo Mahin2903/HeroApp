@@ -1,12 +1,12 @@
-import React from 'react';
+import React, {  useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import { Bar, BarChart, ResponsiveContainer, XAxis, YAxis } from 'recharts';
 import DownloadsIcon from '../../image/icon-downloads.png'
 import ratingIcon from '../../image/icon-ratings.png'
 import reviewIcon from '../../image/icon-review.png'
 import ErrorPage from '../Error/ErrorPage';
-import { addToStoredDB, getStoredApp } from '../Utility/Utility';
-
+import { addToStoredDB, getStoredApp} from '../Utility/Utility';
+import { ToastContainer, toast } from 'react-toastify';
 
 
 
@@ -15,16 +15,22 @@ const AppDetails = () => {
     const data = useLoaderData();
     const Appid = parseInt(id);
     const singleApp = data.find(App => App.id === Appid);
-    const storedApps = getStoredApp();
-     const isInstalled = !!storedApps[id];
+    const [isInstalled, setInstalled] = useState(() =>{
+        const installedApps = getStoredApp();
+        return installedApps.includes(Appid);
+    });
+     
 
+    
 
    
 
 
     const handleAppInstallation = () =>{
         addToStoredDB(id);
-        window.location.reload();
+        setInstalled(!isInstalled);
+         toast("The App installed succesfully");
+
     }
     
     if(!singleApp){
@@ -93,6 +99,7 @@ const AppDetails = () => {
 >
   {isInstalled ? 'Installed' : `Install Now (${size})`}
 </button>
+<ToastContainer />
 
 
           
