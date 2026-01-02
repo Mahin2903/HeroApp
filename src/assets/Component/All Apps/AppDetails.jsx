@@ -69,7 +69,7 @@ const AppDetails = () => {
           </p>
           <p className='border-b-1 border-gray-200 mt-7'></p>
 
-          <div className="flex gap-10 mt-4 ">
+          <div className="flex flex-wrap gap-10 mt-4 ">
             <div className=''>
                 <img src={DownloadsIcon} alt="" />
                 <p className='text-gray-500'>Downloads</p>

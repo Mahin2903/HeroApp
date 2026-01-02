@@ -6,17 +6,17 @@ const AllApps = () => {
   const [products, setProducts] = useState([]);
   const [searchVal, setSearchVal] = useState("");
 
-  // Fetch data
+
   useEffect(() => {
     fetch("App.json")
       .then((res) => res.json())
       .then((data) => {
         setAllApps(data);
-        setProducts(data); // initial load
+        setProducts(data); 
       });
   }, []);
 
-  // 🔍 Search handler (FIXED)
+
   const handleSearch = (value) => {
     setSearchVal(value);
 
@@ -78,7 +78,7 @@ const AllApps = () => {
         </label>
       </div>
 
-      {/* App Grid */}
+     
       <div className="grid grid-cols-1 md:grid-cols-4 gap-9 px-4 mx-auto mt-8">
         <Suspense fallback={<span>Loading...</span>}>
           {products.map((app) => (

@@ -19,7 +19,7 @@ const Header = () => {
             <img src={heroImg} className='mt-[40px] mx-auto' alt="" />
             <div className='p-[80px] bg-linear-to-l from-fuchsia-700 to-violet-600 mb-[80px]'>
                 <h1 className='text-white text-[48px] text-center font-bold'>Trusted by Millions, Built For You</h1>
-                <div className='flex justify-center gap-[175px]'>
+                <div className='flex flex-wrap justify-center gap-[175px]'>
                     <div className='text-center mt-[40px]'>
                     <p className='text-lg text-white'>Total Downloads</p>
                     <h2 className='text-[64px] text-white font-bold'>29.6M</h2>
