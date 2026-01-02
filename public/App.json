@@ -1,0 +1,374 @@
+[
+  {
+    "id": 1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png",
+    "title": "Facebook",
+    "companyName": "Meta",
+    "description": "Social networking platform to connect with people worldwide.",
+    "size": 65,
+    "reviews": 1200000,
+    "ratingAvg": 4.2,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 120000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 350000 },
+      { "name": "5 star", "count": 400000 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
+    "title": "Instagram",
+    "companyName": "Meta",
+    "description": "Photo and video sharing social media app.",
+    "size": 70,
+    "reviews": 980000,
+    "ratingAvg": 4.5,
+    "downloads": 4000000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 360000 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png",
+    "title": "WhatsApp",
+    "companyName": "Meta",
+    "description": "Instant messaging and calling application.",
+    "size": 45,
+    "reviews": 1500000,
+    "ratingAvg": 4.6,
+    "downloads": 6000000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 180000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 820000 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://logos-world.net/wp-content/uploads/2023/07/X-Corp.-Logo.png",
+    "title": "X (Twitter)",
+    "companyName": "X Corp",
+    "description": "Microblogging and real-time news platform.",
+    "size": 55,
+    "reviews": 720000,
+    "ratingAvg": 4.0,
+    "downloads": 1500000000,
+    "ratings": [
+      { "name": "1 star", "count": 90000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 180000 },
+      { "name": "5 star", "count": 150000 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+    "title": "Netflix",
+    "companyName": "Netflix Inc.",
+    "description": "Video streaming service for movies and series.",
+    "size": 90,
+    "reviews": 640000,
+    "ratingAvg": 4.7,
+    "downloads": 2000000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 270000 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg",
+    "title": "Spotify",
+    "companyName": "Spotify Ltd.",
+    "description": "Music streaming and podcast platform.",
+    "size": 85,
+    "reviews": 890000,
+    "ratingAvg": 4.6,
+    "downloads": 3000000000,
+    "ratings": [
+      { "name": "1 star", "count": 35000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 280000 },
+      { "name": "5 star", "count": 375000 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png",
+    "title": "YouTube",
+    "companyName": "Google",
+    "description": "Video sharing and streaming platform.",
+    "size": 95,
+    "reviews": 2000000,
+    "ratingAvg": 4.4,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 850000 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Google_Chrome_icon_%282011%29.png",
+    "title": "Google Chrome",
+    "companyName": "Google",
+    "description": "Fast and secure web browser.",
+    "size": 110,
+    "reviews": 780000,
+    "ratingAvg": 4.3,
+    "downloads": 8000000000,
+    "ratings": [
+      { "name": "1 star", "count": 70000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 160000 },
+      { "name": "4 star", "count": 240000 },
+      { "name": "5 star", "count": 220000 }
+    ]
+  },
+
+  {
+    "id": 9,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/Amazon_icon.png",
+    "title": "Amazon",
+    "companyName": "Amazon Inc.",
+    "description": "Online shopping and e-commerce app.",
+    "size": 100,
+    "reviews": 1100000,
+    "ratingAvg": 4.5,
+    "downloads": 3000000000,
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 180000 },
+      { "name": "4 star", "count": 320000 },
+      { "name": "5 star", "count": 450000 }
+    ]
+  },
+
+  {
+    "id": 10,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Gmail_icon_%282020%29.svg",
+    "title": "Gmail",
+    "companyName": "Google",
+    "description": "Email service with spam protection.",
+    "size": 40,
+    "reviews": 900000,
+    "ratingAvg": 4.6,
+    "downloads": 9000000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 420000 }
+    ]
+  },
+
+  {
+    "id": 11,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/TikTok_logo.svg",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "description": "Short-form video sharing platform.",
+    "size": 85,
+    "reviews": 1300000,
+    "ratingAvg": 4.4,
+    "downloads": 7000000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 120000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 350000 },
+      { "name": "5 star", "count": 480000 }
+    ]
+  },
+
+  {
+    "id": 12,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Google_Drive_icon_%282020%29.svg",
+    "title": "Google Drive",
+    "companyName": "Google",
+    "description": "Cloud storage and file sharing service.",
+    "size": 60,
+    "reviews": 500000,
+    "ratingAvg": 4.5,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 160000 },
+      { "name": "5 star", "count": 205000 }
+    ]
+  },
+
+  {
+    "id": 13,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Zoom_Communications_Logo.svg",
+    "title": "Zoom",
+    "companyName": "Zoom Inc.",
+    "description": "Video conferencing and online meetings.",
+    "size": 75,
+    "reviews": 430000,
+    "ratingAvg": 4.2,
+    "downloads": 2000000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 130000 }
+    ]
+  },
+
+  {
+    "id": 14,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
+    "title": "Telegram",
+    "companyName": "Telegram FZ",
+    "description": "Secure messaging with cloud sync.",
+    "size": 50,
+    "reviews": 600000,
+    "ratingAvg": 4.6,
+    "downloads": 3000000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 270000 }
+    ]
+  },
+
+  {
+    "id": 15,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_Office_logo_%282019%E2%80%93present%29.svg",
+    "title": "Microsoft Office",
+    "companyName": "Microsoft",
+    "description": "Office productivity tools.",
+    "size": 120,
+    "reviews": 720000,
+    "ratingAvg": 4.7,
+    "downloads": 4000000000,
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 420000 }
+    ]
+  },
+
+  {
+    "id": 16,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/48/Discord_logo.svg",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "description": "Voice, video, and text chat for communities.",
+    "size": 80,
+    "reviews": 560000,
+    "ratingAvg": 4.5,
+    "downloads": 2000000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 35000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 180000 },
+      { "name": "5 star", "count": 235000 }
+    ]
+  },
+
+  {
+    "id": 17,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Google_Maps_icon_%282020%29.svg",
+    "title": "Google Maps",
+    "companyName": "Google",
+    "description": "Navigation and real-time location service.",
+    "size": 70,
+    "reviews": 950000,
+    "ratingAvg": 4.7,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 520000 }
+    ]
+  },
+
+  {
+    "id": 18,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/LinkedIn_icon.svg",
+    "title": "LinkedIn",
+    "companyName": "Microsoft",
+    "description": "Professional networking platform.",
+    "size": 60,
+    "reviews": 470000,
+    "ratingAvg": 4.3,
+    "downloads": 1500000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 45000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 140000 },
+      { "name": "5 star", "count": 165000 }
+    ]
+  },
+
+  {
+    "id": 19,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Snapchat_logo.svg",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "description": "Photo and video messaging app.",
+    "size": 75,
+    "reviews": 620000,
+    "ratingAvg": 4.1,
+    "downloads": 2000000000,
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 180000 },
+      { "name": "5 star", "count": 180000 }
+    ]
+  },
+
+  {
+    "id": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
+    "title": "Apple Music",
+    "companyName": "Apple Inc.",
+    "description": "Music streaming service by Apple.",
+    "size": 95,
+    "reviews": 380000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 168000 }
+    ]
+  }
+]
